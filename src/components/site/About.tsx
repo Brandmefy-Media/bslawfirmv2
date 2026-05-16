@@ -24,9 +24,6 @@ export function About() {
           <p className="font-sans text-ink-soft text-[15px] leading-relaxed mb-6">
             BS Law Firm is a Chennai based corporate legal advisory practice committed to delivering ethical, strategic, and result oriented legal solutions. We work with individuals, businesses, and institutions to provide clear, preventive, and outcome-focused legal guidance.
           </p>
-          <a href="#about" className="font-sans font-bold text-black border-b-2 border-black pb-1 hover:border-brand-red hover:text-brand-red transition-colors">
-            Read More About us →
-          </a>
         </motion.div>
 
         <motion.div
@@ -50,10 +47,7 @@ export function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <p className="font-sans text-ink text-[15px] leading-relaxed text-justify">
-            <span className="font-serif font-bold text-black text-7xl leading-none float-left mr-3 mt-1">
-              O
-            </span>
-            ur team of well-qualified advocates delivers services of the highest quality, capable of meeting the most demanding standards. Our goal is to provide resolution to our clients at the earliest with the highest quality of service and client satisfaction.
+            Our team of well-qualified advocates delivers services of the highest quality, capable of meeting the most demanding standards. Our goal is to provide resolution to our clients at the earliest with the highest quality of service and client satisfaction.
           </p>
           <p className="mt-8 font-sans font-bold text-ink text-lg">J Sathish</p>
           <p className="font-sans text-ink-soft text-sm">- Founder, BS Law Firm</p>
