@@ -36,8 +36,8 @@
   --color-surface-off: var(--surface-off);
   --color-subtext-dark: var(--subtext-dark);
   --color-border-dark: var(--border-dark);
-  --font-serif: "Roboto Slab", serif;
-  --font-sans: "Muli", system-ui, sans-serif;
+  --font-serif: "Roboto Slab", Georgia, serif;
+  --font-sans: "Mulish", "Muli", system-ui, sans-serif;
 }
 
 :root {
