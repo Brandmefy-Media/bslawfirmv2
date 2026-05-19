@@ -12,8 +12,6 @@ export function Logo({ light = true, size = "md" }: { light?: boolean; size?: "s
         <span className={`${sizes.bs} font-bold tracking-tight`}>BS</span>
         <span className={`${sizes.main} opacity-60`}>|</span>
         <span className={`${sizes.main} font-normal tracking-[0.2em] uppercase`}>Law Firm</span>
-      </div>
-      <div className={`${sizes.sub} mt-1 font-sans uppercase tracking-[0.3em] ${sub}`}>J Sathish</div>
     </div>
   );
 }
