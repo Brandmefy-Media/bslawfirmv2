@@ -28,7 +28,7 @@ export function Testimonials() {
   const visible = Array.from({ length: perView }, (_, i) => items[(idx + i) % items.length]);
 
   return (
-    <section className="bg-white py-24">
+    <section className="bg-white py-14 md:py-24">
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="text-center mb-14">
           <div className="w-14 h-14 bg-black flex items-center justify-center mx-auto mb-6">

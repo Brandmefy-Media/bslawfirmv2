@@ -21,7 +21,7 @@ const features = [
 
 export function WhyChooseUs() {
   return (
-    <section className="bg-white py-24">
+    <section className="bg-white py-14 md:py-24">
       <div className="max-w-[1400px] mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-0 border border-[#e0e0e0]">
         <div className="bg-black p-10 flex flex-col justify-between">
           <h3 className="font-serif font-bold text-white text-2xl leading-snug">

@@ -43,7 +43,7 @@ export function Stats() {
           return (
             <div
               key={i}
-              className={`px-6 py-16 text-center ${
+              className={`px-6 py-10 md:py-16 text-center ${
                 i !== 0 ? "md:border-l border-[#222]" : ""
               } ${i % 2 === 1 ? "border-l md:border-l" : ""} ${i >= 2 ? "border-t md:border-t-0 border-[#222]" : ""}`}
             >

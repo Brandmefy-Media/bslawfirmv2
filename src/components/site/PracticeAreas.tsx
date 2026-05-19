@@ -20,7 +20,7 @@ export function PracticeAreas() {
             "linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)), url('https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1600&q=80')",
         }}
       />
-      <div className="bg-black px-6 md:px-16 py-20">
+      <div className="bg-black px-6 md:px-16 py-12 md:py-20">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
