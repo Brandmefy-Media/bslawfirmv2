@@ -5,7 +5,7 @@ import { Logo } from "./Logo";
 export function About() {
   return (
     <section id="about" className="bg-white">
-      <div className="max-w-[1400px] mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="max-w-[1400px] mx-auto px-6 py-14 md:py-24 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

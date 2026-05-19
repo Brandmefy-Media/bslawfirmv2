@@ -43,7 +43,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="bg-cover bg-center py-24"
+      className="bg-cover bg-center py-14 md:py-24"
       style={{
         backgroundImage:
           "linear-gradient(rgba(0,0,0,0.82), rgba(0,0,0,0.82)), url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1800&q=80')",

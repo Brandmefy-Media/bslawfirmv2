@@ -50,7 +50,7 @@ function Blog() {
         </p>
       </section>
 
-      <section className="max-w-[1400px] mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <section className="max-w-[1400px] mx-auto px-6 py-12 md:py-20 grid grid-cols-1 md:grid-cols-3 gap-8">
         {posts.map((p) => (
           <article key={p.title} className="border border-[#e0e0e0] bg-white flex flex-col">
             <img src={p.img} alt={p.title} className="w-full aspect-[4/3] object-cover" />

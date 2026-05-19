@@ -19,7 +19,7 @@ export function Hero() {
       }}
     >
       <div className="flex-1 flex items-center">
-        <div className="max-w-[1400px] mx-auto px-6 w-full py-24">
+        <div className="max-w-[1400px] mx-auto px-6 w-full py-14 md:py-24">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
